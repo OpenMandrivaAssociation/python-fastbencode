@@ -14,6 +14,7 @@ Source0:	https://files.pythonhosted.org/packages/source/f/%{pypi_name}/%{pypi_na
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python3egg(setuptools)
 BuildRequires:	python3dist(setuptools-scm)
+BuildRequires:	python3dist(cython)
 
 %description
 fastbencode is an implementation of the bencode serialization
