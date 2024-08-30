@@ -2,7 +2,7 @@
 %define debug_package %nil
 
 Name:             python-%{pypi_name}
-Version:          0.2
+Version:          0.3.1
 Release:          1
 
 Summary:          Implementation of bencode with optional fast C extensions
