@@ -3,7 +3,7 @@
 
 Name:             python-%{pypi_name}
 Version:          0.3.1
-Release:          2
+Release:          3
 
 Summary:          Implementation of bencode with optional fast C extensions
 License:          BSD
