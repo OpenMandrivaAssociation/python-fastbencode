@@ -4,7 +4,7 @@
 %bcond tests 1
 
 Name:		python-fastbencode
-Version:	0.3.8
+Version:	0.3.9
 Release:	1
 Summary:	Implementation of bencode with optional fast C extensions
 License:	BSD
@@ -33,10 +33,6 @@ but the C extension provides significantly better performance.
 
 %prep
 %autosetup -n %{module}-%{version} -p1 -a1
-# NOTE	check this is fixed in the next release > 0.3.8
-# NOTE	reported upstream - https://github.com/breezy-team/fastbencode/issues/157
-# fix for mimatched version number
-sed -i 's/__version__ = (0, 3, 7)/__version__ = (0, 3, 8)/g' fastbencode/__init__.py
 
 mkdir .cargo
 cat >>.cargo/config.toml <<EOF
