@@ -4,10 +4,10 @@
 %bcond tests 1
 
 Name:		python-fastbencode
-Version:	0.3.9
+Version:	0.3.10
 Release:	1
 Summary:	Implementation of bencode with optional fast C extensions
-License:	BSD
+License:	Apache-2.0
 Group:		Development/Python
 URL:		https://github.com/breezy-team/fastbencode
 Source0:	https://github.com/breezy-team/fastbencode/archive/v%{version}/%{oname}-%{version}.tar.gz
@@ -41,7 +41,6 @@ replace-with = "vendored-sources"
 
 [source.vendored-sources]
 directory = "vendor"
-
 EOF
 
 %build
