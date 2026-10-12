@@ -5,7 +5,7 @@
 
 Name:		python-fastbencode
 Version:	0.3.10
-Release:	1
+Release:	2
 Summary:	Implementation of bencode with optional fast C extensions
 License:	Apache-2.0
 Group:		Development/Python
